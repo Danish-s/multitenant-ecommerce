@@ -9,7 +9,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 interface NavbarItem {
     href: string;
-    Children: React.ReactNode;
+    children: React.ReactNode;
 }
 
 interface Props {
@@ -43,7 +43,7 @@ export const NavbarSidebar = ({
                             text-base font-medium"
                             onClick={() => onOpenChange(false)}
                         >
-                            {item.Children}
+                            {item.children}
                         </Link>
                     ))}
                     <div className="border-t">

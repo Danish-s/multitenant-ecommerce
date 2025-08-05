@@ -45,11 +45,11 @@ const NavbarItem = ({
 };
 
 const NavbarItems = [
-    { href: "/", Children: "Home" },
-    { href: "/about", Children: "About" },
-    { href: "/features", Children: "Features" },
-    { href: "/pricing", Children: "Pricing" },
-    { href: "/contact", Children: "Contact" },
+    { href: "/", children: "Home" },
+    { href: "/about", children: "About" },
+    { href: "/features", children: "Features" },
+    { href: "/pricing", children: "Pricing" },
+    { href: "/contact", children: "Contact" },
 ];
 
 export const Navbar = () => {
@@ -77,7 +77,7 @@ export const Navbar = () => {
                         href={item.href}
                         isActive={pathname === item.href}
                     >
-                        {item.Children}
+                        {item.children}
                     </NavbarItem>
                 ))}
             </div>
