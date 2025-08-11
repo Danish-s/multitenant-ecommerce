@@ -1,4 +1,4 @@
-import { generateTypes } from 'payload/dist/bin/payload'
+import { generateTypes } from 'payload'
 import config from '../src/payload.config'
 
 generateTypes({
