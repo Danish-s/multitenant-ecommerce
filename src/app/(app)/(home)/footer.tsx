@@ -5,5 +5,5 @@ export const Footer = () => {
                 <p>EcoVerse, Inc.</p>
             </div>
         </footer>
-    )
-}
+    );
+};
